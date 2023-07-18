@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -96,19 +96,18 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
-
+    tracking_id          : "G-7S0E28H50N"
+    anonymize_ip         : false # true, false (default)
 
 # Site Author
 author:
   name             : "김윤호"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "하루에 한개씩 두려움을 극복하고자 작은 도전 한개씩 이어나가는 개발자입니다."
-  location         : "Korea, seoul"
   email            : "yh.dev.ko@gmail.com"
+  location         : "Korea, seoul"
   links:
     - label: "Toy-project"
       icon: "fas fa-fw fa-link"
